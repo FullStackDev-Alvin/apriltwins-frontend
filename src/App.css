@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@theme {
+  --color-bg:#FFFFFF;
+  --color-primary:#112D4E;
+  --color-text: #000000;
+  --color-secondary: #DBE2EF;
+}
+@keyframes blob {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+}
+.blob {
+  animation: blob 0.5s ease-in-out;
+}
+.my-masonry-grid_column {
+  background-clip: padding-box;
+}
+.my-masonry-grid_column > img {
+  margin-bottom: 1rem;
+}
+
+/* global.css or tailwind config */
+.scroll-row {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: flex;
+  gap: 1rem;
+  scroll-behavior: smooth;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes fade-in-up {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up {
+  animation: fade-in-up 0.3s ease-out;
+}
