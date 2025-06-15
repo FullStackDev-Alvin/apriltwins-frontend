@@ -16,7 +16,7 @@ const Home = () => {
       .catch(err => console.error(err));
   }, []);
   return (
-    <div className=''>
+    <div className='min-h-screen'>
         <Carousel/>
         <WhoWeAre/>
         <GalleryPreview images={images} />

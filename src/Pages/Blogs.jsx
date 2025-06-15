@@ -4,7 +4,7 @@ import BlogRows from '../Components/BlogList'
 
 const Blogs = () => {
   return (
-    <div>
+    <div className='min-h-screen'>
         <BlogRows/>
     </div>
   )

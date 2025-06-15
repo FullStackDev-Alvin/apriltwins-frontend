@@ -3,7 +3,7 @@ import MasonryGallery from '../Components/MasonryGallery'
 
 const Gallery = () => {
   return (
-    <div>
+    <div className='min-h-screen'>
         <MasonryGallery/>
     </div>
   )

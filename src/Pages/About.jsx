@@ -15,7 +15,7 @@ const About = () => {
         }
     ] 
   return (
-    <div>
+    <div className='min-h-screen'>
         <BackdropComponent title="About Us"/>
         {AboutContent.map((content)=>(
             <ReusableLeftToRight  title={content.title} paragraph={content.paragraph} image={content.image} header={content.header}/>
