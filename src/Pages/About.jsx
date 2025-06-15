@@ -14,12 +14,33 @@ const About = () => {
             image:"/about.jpg"
         }
     ] 
+    const lists = [
+        "To foster unity among April-born individuals worldwide",
+
+        "To create networks of support, both emotional and practical",
+
+        "To encourage acts of kindness, charity, and collaboration",
+
+        "To serve as ambassadors of hope, especially in seasons of renewal"
+    ]
   return (
     <div className='min-h-screen'>
         <BackdropComponent title="About Us"/>
         {AboutContent.map((content)=>(
             <ReusableLeftToRight  title={content.title} paragraph={content.paragraph} image={content.image} header={content.header}/>
         ))}
+        
+        <div className="max-w-screen-xl m-auto px-12 p-4 flex flex-col gap-[20px]">
+            <h2 class="mb-2 text-lg font-semibold text-primary ">Our Objectives:</h2>
+            <ul class="max-w-xl space-y-1 text-black list-disc list-inside p-4">
+                {lists.map((list)=>(
+                    <li>
+                        {list}
+                    </li>
+                ))}
+            </ul>
+        </div>
+
     </div>
   )
 }
