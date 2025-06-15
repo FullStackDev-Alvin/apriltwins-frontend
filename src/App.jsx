@@ -8,6 +8,7 @@ import Dashboard, { AdminLogin } from './Pages/DashboardComponents';
 import Gallery from './Pages/Gallery';
 import Blogs from './Pages/Blogs';
 import Loader from './Components/Loader';
+import About from './Pages/About';
 
 function ProtectedRoute({ children }) {
   const token = localStorage.getItem('authToken');
@@ -31,7 +32,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div className="max-w-screen-xl m-auto">
+      <div className="">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route
@@ -45,6 +46,7 @@ function App() {
           <Route path="/login" element={<AdminLogin />} />
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Blogs" element={<Blogs />} />
+          <Route path="/About" element={<About/>} />
         </Routes>
       </div>
       <Footer />

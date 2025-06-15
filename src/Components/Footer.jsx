@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
         <footer class="bg-bg rounded-lg shadow-sm ">
-            <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="w-full max-w-screen mx-auto p-4 md:py-8">
                 <div class="sm:flex sm:items-center sm:justify-between">
                     <NavLink to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                         <span className="self-center  text-2xl font-semibold whitespace-nowrap text-primary">April Twins</span>
