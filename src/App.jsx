@@ -9,6 +9,8 @@ import Gallery from './Pages/Gallery';
 import Blogs from './Pages/Blogs';
 import Loader from './Components/Loader';
 import About from './Pages/About';
+import ContactUs from './Pages/ContactUs';
+import ContactSection from './Pages/ContactUs';
 
 function ProtectedRoute({ children }) {
   const token = localStorage.getItem('authToken');
@@ -47,6 +49,7 @@ function App() {
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Blogs" element={<Blogs />} />
           <Route path="/About" element={<About/>} />
+          <Route path="/Contacts" element={<ContactSection/>}/>
         </Routes>
       </div>
       <Footer />

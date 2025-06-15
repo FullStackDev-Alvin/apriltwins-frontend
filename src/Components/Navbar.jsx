@@ -68,6 +68,16 @@ const Navbar = () => {
                 Gallery
               </NavLink>
             </li>
+            <li>
+              <NavLink  
+                to="/Contacts"
+                className={({ isActive }) =>
+                  `block py-1 px-2 rounded ${isActive ? 'text-bg bg-primary' : 'text-primary'} md:hover:bg-primary md:hover:text-bg`
+                }
+              >
+                Contact Us
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>
