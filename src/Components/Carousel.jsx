@@ -38,16 +38,16 @@ const HeroCarousel = () => {
       ))}
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40 z-20" />
+      <div className="absolute inset-0 bg-black/70 z-20" />
 
       {/* Fixed CTA */}
       <div className="absolute z-30 inset-0 flex flex-col justify-center items-center text-center text-white px-6">
-        <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">Welcome to April Twins</h1>
+        <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg ">Welcome to April Twins</h1>
         <p className="text-lg md:text-2xl mb-8 max-w-2xl drop-shadow-md">
-          Your journey to stunning visuals and creative vibes starts here.
+          To encourage acts of kindness, charity, and collaboration
         </p>
-        <Link to="/" className="bg-[var(--color-primary)] hover:bg-white hover:text-[var(--color-primary)] text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 shadow-md hover:shadow-xl">
-          Contact Us
+        <Link to="/About" className="bg-[var(--color-primary)] hover:bg-white hover:text-[var(--color-primary)] text-white px-8 py-4 font-semibold transition-all duration-300 shadow-md hover:shadow-xl">
+          About Us
         </Link>
       </div>
 

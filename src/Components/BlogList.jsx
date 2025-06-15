@@ -54,7 +54,7 @@ useEffect(() => {
   };
 
   return (
-    <section className="w-full px-4 py-6">
+    <section className="max-w-screen-xl m-auto px-4 py-6">
       <h2 className="text-2xl font-bold mb-4 text-center">Latest Blogs</h2>
 
       {/* Desktop View */}

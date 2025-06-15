@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @theme {
   --color-bg:#FFFFFF;
-  --color-primary:#00a5ce;
+  --color-primary:#008dce;
   --color-text: #000000;
   --color-secondary: #DBE2EF;
 }
@@ -14,7 +14,7 @@
   }
 }
 .blogsss{
-  color: #00a5ce;
+  color: #008dce;
 }
 .blob {
   animation: blob 0.5s ease-in-out;
