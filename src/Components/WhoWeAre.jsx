@@ -11,7 +11,7 @@ const WhoWeAre = () => {
         </p>
       </div>
       <div className='w-full md:w-[60%]'>
-        <img src="/who_we_are.png" className='w-full' alt="Who We Are" />
+        <img src="/6.jpg" className='w-full' alt="Who We Are" />
       </div>
     </div>
 </div>

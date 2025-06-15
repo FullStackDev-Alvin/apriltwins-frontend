@@ -4,12 +4,16 @@ import React, { useEffect, useState } from 'react';
 import slide1 from '/1.jpg';
 import slide2 from '/2.jpg';
 import slide3 from '/3.jpg';
+import slide4 from "/4.jpg";
+import slide5 from "/5.jpg";
 import { Link } from 'react-router-dom';
 
 const slides = [
   { image: slide1, alt: 'First Slide' },
   { image: slide2, alt: 'Second Slide' },
   { image: slide3, alt: 'Third Slide' },
+  { image: slide4, alt: 'Fourth Slide' },
+  { image: slide5, alt: 'Fifth Slide' },
 ];
 
 const HeroCarousel = () => {
